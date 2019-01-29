@@ -1,0 +1,857 @@
++ cd /home/ubuntu/tesseract
++ rm -rf ../tesstutorial/trainrupee
++ bash ../tesseract/src/training/tesstrain.sh --fonts_dir /home/ubuntu/.fonts --lang eng --linedata_only --noextract_font_properties --exposures 0 --save_box_tiff --maxpages 0 --workspace_dir /home/ubuntu/tmp --langdata_dir ../langdata --tessdata_dir ../tessdata --training_text ../langdata/eng/eng.madhuri.training_text --output_dir ../tesstutorial/trainrupee
+
+=== Starting training for language 'eng'
+[Tue Jan 29 14:22:00 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fonts_dir=/home/ubuntu/.fonts --font=Arial Bold --outputbase=/home/ubuntu/tmp/fc-cache/sample_text.txt --text=/home/ubuntu/tmp/fc-cache/sample_text.txt --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache
+Rendered page 0 to file /home/ubuntu/tmp/fc-cache/sample_text.txt.tif
+
+=== Phase I: Generating training images ===
+Rendering using Arial Bold
+[Tue Jan 29 14:22:02 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Arial_Bold.exp0 --max_pages=0 --font=Arial Bold --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Arial_Bold.exp0.tif
+Rendering using Arial Bold Italic
+[Tue Jan 29 14:22:03 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Arial_Bold_Italic.exp0 --max_pages=0 --font=Arial Bold Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Arial_Bold.exp0.tif
+Rendering using Arial Italic
+[Tue Jan 29 14:22:04 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Arial_Italic.exp0 --max_pages=0 --font=Arial Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Arial_Bold_Italic.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Arial_Bold_Italic.exp0.tif
+Rendering using Arial
+[Tue Jan 29 14:22:05 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Arial.exp0 --max_pages=0 --font=Arial --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Arial_Italic.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Arial_Italic.exp0.tif
+Rendering using Courier New Bold
+[Tue Jan 29 14:22:06 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold.exp0 --max_pages=0 --font=Courier New Bold --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Arial.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Arial.exp0.tif
+Rendering using Courier New Bold Italic
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold.exp0.tif
+[Tue Jan 29 14:22:07 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold_Italic.exp0 --max_pages=0 --font=Courier New Bold Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold.exp0.tif
+Rendering using Courier New Italic
+[Tue Jan 29 14:22:08 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Courier_New_Italic.exp0 --max_pages=0 --font=Courier New Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold_Italic.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold_Italic.exp0.tif
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Courier_New_Italic.exp0.tif
+Rendering using Courier New
+[Tue Jan 29 14:22:09 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Courier_New.exp0 --max_pages=0 --font=Courier New --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Courier_New_Italic.exp0.tif
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Courier_New.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Courier_New.exp0.tif
+Rendering using Times New Roman, Bold
+[Tue Jan 29 14:22:12 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold.exp0 --max_pages=0 --font=Times New Roman, Bold --text=../langdata/eng/eng.madhuri.training_text
+Rendering using Times New Roman, Bold Italic
+[Tue Jan 29 14:22:13 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold_Italic.exp0 --max_pages=0 --font=Times New Roman, Bold Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold.exp0.tif
+Rendering using Times New Roman, Italic
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold_Italic.exp0.tif
+[Tue Jan 29 14:22:14 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Italic.exp0 --max_pages=0 --font=Times New Roman, Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold_Italic.exp0.tif
+Rendering using Times New Roman,
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Italic.exp0.tif
+[Tue Jan 29 14:22:15 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Times_New_Roman.exp0 --max_pages=0 --font=Times New Roman, --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Italic.exp0.tif
+Rendering using Georgia Bold
+[Tue Jan 29 14:22:16 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Georgia_Bold.exp0 --max_pages=0 --font=Georgia Bold --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman.exp0.tif
+Rendering using Georgia Italic
+[Tue Jan 29 14:22:17 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Georgia_Italic.exp0 --max_pages=0 --font=Georgia Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold.exp0.tif
+Rendering using Georgia
+[Tue Jan 29 14:22:18 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Georgia.exp0 --max_pages=0 --font=Georgia --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Georgia_Italic.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Georgia_Italic.exp0.tif
+Rendering using Georgia Bold Italic
+[Tue Jan 29 14:22:19 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Georgia_Bold_Italic.exp0 --max_pages=0 --font=Georgia Bold Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Georgia.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Georgia.exp0.tif
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold_Italic.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold_Italic.exp0.tif
+Rendering using Trebuchet MS Bold
+[Tue Jan 29 14:22:22 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold.exp0 --max_pages=0 --font=Trebuchet MS Bold --text=../langdata/eng/eng.madhuri.training_text
+Rendering using Trebuchet MS Bold Italic
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold.exp0.tif
+[Tue Jan 29 14:22:23 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold_Italic.exp0 --max_pages=0 --font=Trebuchet MS Bold Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold.exp0.tif
+Rendering using Trebuchet MS Italic
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold_Italic.exp0.tif
+[Tue Jan 29 14:22:24 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Italic.exp0 --max_pages=0 --font=Trebuchet MS Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold_Italic.exp0.tif
+Rendering using Trebuchet MS
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Italic.exp0.tif
+[Tue Jan 29 14:22:25 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS.exp0 --max_pages=0 --font=Trebuchet MS --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Italic.exp0.tif
+Rendering using Verdana Bold
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS.exp0.tif
+[Tue Jan 29 14:22:26 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Verdana_Bold.exp0 --max_pages=0 --font=Verdana Bold --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS.exp0.tif
+Rendering using Verdana Italic
+[Tue Jan 29 14:22:27 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Verdana_Italic.exp0 --max_pages=0 --font=Verdana Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold.exp0.tif
+Rendering using Verdana
+[Tue Jan 29 14:22:28 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Verdana.exp0 --max_pages=0 --font=Verdana --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Verdana_Italic.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Verdana_Italic.exp0.tif
+Rendering using Verdana Bold Italic
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Verdana.exp0.tif
+[Tue Jan 29 14:22:29 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Verdana_Bold_Italic.exp0 --max_pages=0 --font=Verdana Bold Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Verdana.exp0.tif
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold_Italic.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold_Italic.exp0.tif
+Rendering using URW Bookman L Bold
+[Tue Jan 29 14:22:31 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold.exp0 --max_pages=0 --font=URW Bookman L Bold --text=../langdata/eng/eng.madhuri.training_text
+Stripped 11 unrenderable words
+Rendering using URW Bookman L Italic
+[Tue Jan 29 14:22:32 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Italic.exp0 --max_pages=0 --font=URW Bookman L Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold.exp0.tif
+Stripped 3 unrenderable words
+Stripped 11 unrenderable words
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold.exp0.tif
+Rendering using URW Bookman L Bold Italic
+[Tue Jan 29 14:22:33 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold_Italic.exp0 --max_pages=0 --font=URW Bookman L Bold Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Italic.exp0.tif
+Stripped 3 unrenderable words
+Stripped 11 unrenderable words
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Italic.exp0.tif
+Rendering using Century Schoolbook L Bold
+[Tue Jan 29 14:22:34 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold.exp0 --max_pages=0 --font=Century Schoolbook L Bold --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold_Italic.exp0.tif
+Stripped 3 unrenderable words
+Stripped 10 unrenderable words
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold_Italic.exp0.tif
+Rendering using Century Schoolbook L Italic
+[Tue Jan 29 14:22:35 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Italic.exp0 --max_pages=0 --font=Century Schoolbook L Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold.exp0.tif
+Stripped 4 unrenderable words
+Stripped 11 unrenderable words
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold.exp0.tif
+Rendering using Century Schoolbook L Bold Italic
+[Tue Jan 29 14:22:36 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold_Italic.exp0 --max_pages=0 --font=Century Schoolbook L Bold Italic --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Italic.exp0.tif
+Stripped 3 unrenderable words
+Stripped 11 unrenderable words
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Italic.exp0.tif
+Rendering using Century Schoolbook L Medium
+[Tue Jan 29 14:22:37 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Medium.exp0 --max_pages=0 --font=Century Schoolbook L Medium --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold_Italic.exp0.tif
+Stripped 3 unrenderable words
+Stripped 11 unrenderable words
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold_Italic.exp0.tif
+Rendering using DejaVu Sans Ultra-Light
+[Tue Jan 29 14:22:38 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.OdF/eng.DejaVu_Sans_Ultra-Light.exp0 --max_pages=0 --font=DejaVu Sans Ultra-Light --text=../langdata/eng/eng.madhuri.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Medium.exp0.tif
+Stripped 3 unrenderable words
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Medium.exp0.tif
+Rendered page 0 to file /tmp/eng-2019-01-29.OdF/eng.DejaVu_Sans_Ultra-Light.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.OdF/eng.DejaVu_Sans_Ultra-Light.exp0.tif
+
+=== Phase UP: Generating unicharset and unichar properties files ===
+[Tue Jan 29 14:22:40 UTC 2019] /home/ubuntu/tesseract/src/training/unicharset_extractor --output_unicharset /tmp/eng-2019-01-29.OdF/eng.unicharset --norm_mode 1 /tmp/eng-2019-01-29.OdF/eng.Arial_Bold.exp0.box /tmp/eng-2019-01-29.OdF/eng.Arial_Bold_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Arial.exp0.box /tmp/eng-2019-01-29.OdF/eng.Arial_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold.exp0.box /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Medium.exp0.box /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold.exp0.box /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Courier_New.exp0.box /tmp/eng-2019-01-29.OdF/eng.Courier_New_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.DejaVu_Sans_Ultra-Light.exp0.box /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold.exp0.box /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Georgia.exp0.box /tmp/eng-2019-01-29.OdF/eng.Georgia_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold.exp0.box /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman.exp0.box /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold.exp0.box /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS.exp0.box /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold.exp0.box /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold.exp0.box /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold_Italic.exp0.box /tmp/eng-2019-01-29.OdF/eng.Verdana.exp0.box /tmp/eng-2019-01-29.OdF/eng.Verdana_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Arial_Bold.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Arial_Bold_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Arial.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Arial_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Medium.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Courier_New.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Courier_New_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.DejaVu_Sans_Ultra-Light.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Georgia.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Georgia_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold_Italic.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Verdana.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.OdF/eng.Verdana_Italic.exp0.box
+Other case É of é is not in unicharset
+Wrote unicharset file /tmp/eng-2019-01-29.OdF/eng.unicharset
+[Tue Jan 29 14:22:41 UTC 2019] /home/ubuntu/tesseract/src/training/set_unicharset_properties -U /tmp/eng-2019-01-29.OdF/eng.unicharset -O /tmp/eng-2019-01-29.OdF/eng.unicharset -X /tmp/eng-2019-01-29.OdF/eng.xheights --script_dir=../langdata
+Loaded unicharset of size 112 from file /tmp/eng-2019-01-29.OdF/eng.unicharset
+Setting unichar properties
+Other case É of é is not in unicharset
+Setting script properties
+Warning: properties incomplete for index 25 = ~
+Warning: properties incomplete for index 81 = ₹
+Writing unicharset to file /tmp/eng-2019-01-29.OdF/eng.unicharset
+
+=== Phase E: Generating lstmf files ===
+Using TESSDATA_PREFIX=../tessdata
+[Tue Jan 29 14:22:41 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Arial_Bold.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Arial_Bold.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:41 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Arial_Bold_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Arial_Bold_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:41 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Arial_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Arial_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:41 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Medium.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Medium.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:41 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:41 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Arial.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Arial.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:41 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:41 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold_Italic.exp0 --psm 6 lstm.train
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Page 1
+Page 1
+Page 1
+Page 1
+Page 1
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Arial.exp0.lstmf
+Loaded 47/47 pages (1-47) of document /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Medium.exp0.lstmf
+Loaded 46/46 pages (1-46) of document /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Italic.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Arial_Bold.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Arial_Italic.exp0.lstmf
+Loaded 45/45 pages (1-45) of document /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Arial_Bold_Italic.exp0.lstmf
+Loaded 46/46 pages (1-46) of document /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold_Italic.exp0.lstmf
+[Tue Jan 29 14:22:43 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:43 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:43 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.DejaVu_Sans_Ultra-Light.exp0.tif /tmp/eng-2019-01-29.OdF/eng.DejaVu_Sans_Ultra-Light.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:43 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Courier_New_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Courier_New_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:43 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:43 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Georgia.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Georgia.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:43 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Courier_New.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Courier_New.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:43 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold_Italic.exp0 --psm 6 lstm.train
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Page 1
+Page 1
+Page 1
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Page 1
+Page 1
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Loaded 51/51 pages (1-51) of document /tmp/eng-2019-01-29.OdF/eng.DejaVu_Sans_Ultra-Light.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Georgia.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Courier_New.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Courier_New_Italic.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold_Italic.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold_Italic.exp0.lstmf
+[Tue Jan 29 14:22:45 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Georgia_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Georgia_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:45 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:45 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:45 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:45 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:45 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:45 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:45 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS.exp0 --psm 6 lstm.train
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Page 1
+Page 1
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Page 1
+Page 1
+Page 1
+Page 1
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold.exp0.lstmf
+Loaded 51/51 pages (1-51) of document /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold_Italic.exp0.lstmf
+Loaded 51/51 pages (1-51) of document /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Italic.exp0.lstmf
+Loaded 51/51 pages (1-51) of document /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold_Italic.exp0.lstmf
+Loaded 52/52 pages (1-52) of document /tmp/eng-2019-01-29.OdF/eng.Georgia_Italic.exp0.lstmf
+[Tue Jan 29 14:22:46 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:46 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:46 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:46 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:46 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold.exp0.tif /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:46 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Verdana_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Verdana_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:46 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold_Italic.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold_Italic.exp0 --psm 6 lstm.train
+[Tue Jan 29 14:22:46 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.OdF/eng.Verdana.exp0.tif /tmp/eng-2019-01-29.OdF/eng.Verdana.exp0 --psm 6 lstm.train
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Page 1
+Page 1
+Page 1
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Page 1
+Page 1
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Page 2
+Loaded 51/51 pages (1-51) of document /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Italic.exp0.lstmf
+Loaded 48/48 pages (1-48) of document /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Italic.exp0.lstmf
+Loaded 50/50 pages (1-50) of document /tmp/eng-2019-01-29.OdF/eng.Verdana.exp0.lstmf
+Loaded 47/47 pages (1-47) of document /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold.exp0.lstmf
+Loaded 46/46 pages (1-46) of document /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold_Italic.exp0.lstmf
+Loaded 50/50 pages (1-50) of document /tmp/eng-2019-01-29.OdF/eng.Verdana_Italic.exp0.lstmf
+Loaded 50/50 pages (1-50) of document /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold.exp0.lstmf
+Loaded 50/50 pages (1-50) of document /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold_Italic.exp0.lstmf
+
+=== Constructing LSTM training data ===
+Creating new directory ../tesstutorial/trainrupee
+[Tue Jan 29 14:22:48 UTC 2019] /home/ubuntu/tesseract/src/training/combine_lang_model --input_unicharset /tmp/eng-2019-01-29.OdF/eng.unicharset --script_dir ../langdata --words ../langdata/eng/eng.wordlist --numbers ../langdata/eng/eng.numbers --puncs ../langdata/eng/eng.punc --output_dir ../tesstutorial/trainrupee --lang eng
+Loaded unicharset of size 112 from file /tmp/eng-2019-01-29.OdF/eng.unicharset
+Setting unichar properties
+Other case É of é is not in unicharset
+Setting script properties
+Warning: properties incomplete for index 81 = ₹
+Config file is optional, continuing...
+Failed to read data from: ../langdata/eng/eng.config
+Null char=2
+Reducing Trie to SquishedDawg
+Reducing Trie to SquishedDawg
+Reducing Trie to SquishedDawg
+
+=== Saving box/tiff pairs for training data ===
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial_Bold.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial_Bold_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Medium.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.DejaVu_Sans_Ultra-Light.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana_Italic.exp0.box to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial_Bold.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial_Bold_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Medium.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.DejaVu_Sans_Ultra-Light.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold_Italic.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana.exp0.tif to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana_Italic.exp0.tif to ../tesstutorial/trainrupee
+
+=== Moving lstmf files for training data ===
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial_Bold.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial_Bold_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Arial_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Bold_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Century_Schoolbook_L_Medium.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New_Bold_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Courier_New_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.DejaVu_Sans_Ultra-Light.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia_Bold_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Georgia_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Bold_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Times_New_Roman_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Bold_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Trebuchet_MS_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Bold_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.URW_Bookman_L_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana_Bold_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana.exp0.lstmf to ../tesstutorial/trainrupee
+Moving /tmp/eng-2019-01-29.OdF/eng.Verdana_Italic.exp0.lstmf to ../tesstutorial/trainrupee
+
+Created starter traineddata for LSTM training of language 'eng'
+
+
+Run 'lstmtraining' comman next to continue LSTM training for language 'eng'
+
+
+real	0m57.934s
+user	1m48.556s
+sys	0m5.844s
++ rm -rf ../tesstutorial/evalrupee
++ bash ../tesseract/src/training/tesstrain.sh --fonts_dir /home/ubuntu/.fonts --lang eng --linedata_only --noextract_font_properties --exposures 0 --save_box_tiff --maxpages 0 --workspace_dir /home/ubuntu/tmp --langdata_dir ../langdata --tessdata_dir ../tessdata --training_text ../langdata/eng/eng.rupeenew.training_text --fontlist Siddhanta --output_dir ../tesstutorial/evalrupee
+
+=== Starting training for language 'eng'
+[Tue Jan 29 14:22:58 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fonts_dir=/home/ubuntu/.fonts --font=Siddhanta --outputbase=/home/ubuntu/tmp/fc-cache/sample_text.txt --text=/home/ubuntu/tmp/fc-cache/sample_text.txt --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache
+Rendered page 0 to file /home/ubuntu/tmp/fc-cache/sample_text.txt.tif
+
+=== Phase I: Generating training images ===
+Rendering using Siddhanta
+[Tue Jan 29 14:23:00 UTC 2019] /home/ubuntu/tesseract/src/training/text2image --fontconfig_tmpdir=/home/ubuntu/tmp/fc-cache --fonts_dir=/home/ubuntu/.fonts --strip_unrenderable_words --leading=32 --xsize=3600 --char_spacing=0.0 --exposure=0 --outputbase=/tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0 --max_pages=0 --font=Siddhanta --text=../langdata/eng/eng.rupeenew.training_text
+Rendered page 0 to file /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0.tif
+Rendered page 1 to file /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0.tif
+Rendered page 2 to file /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0.tif
+
+=== Phase UP: Generating unicharset and unichar properties files ===
+[Tue Jan 29 14:23:03 UTC 2019] /home/ubuntu/tesseract/src/training/unicharset_extractor --output_unicharset /tmp/eng-2019-01-29.Scr/eng.unicharset --norm_mode 1 /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0.box
+Extracting unicharset from box file /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0.box
+Other case É of é is not in unicharset
+Wrote unicharset file /tmp/eng-2019-01-29.Scr/eng.unicharset
+[Tue Jan 29 14:23:03 UTC 2019] /home/ubuntu/tesseract/src/training/set_unicharset_properties -U /tmp/eng-2019-01-29.Scr/eng.unicharset -O /tmp/eng-2019-01-29.Scr/eng.unicharset -X /tmp/eng-2019-01-29.Scr/eng.xheights --script_dir=../langdata
+Loaded unicharset of size 112 from file /tmp/eng-2019-01-29.Scr/eng.unicharset
+Setting unichar properties
+Other case É of é is not in unicharset
+Setting script properties
+Warning: properties incomplete for index 25 = ~
+Warning: properties incomplete for index 111 = ₹
+Writing unicharset to file /tmp/eng-2019-01-29.Scr/eng.unicharset
+
+=== Phase E: Generating lstmf files ===
+Using TESSDATA_PREFIX=../tessdata
+[Tue Jan 29 14:23:03 UTC 2019] /home/ubuntu/tesseract/src/api/tesseract /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0.tif /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0 --psm 6 lstm.train
+Tesseract Open Source OCR Engine v4.0.0-246-g4d9bc with Leptonica
+Page 1
+Page 2
+Loaded 38/38 pages (1-38) of document /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0.lstmf
+Page 3
+Loaded 76/76 pages (1-76) of document /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0.lstmf
+
+=== Constructing LSTM training data ===
+Creating new directory ../tesstutorial/evalrupee
+[Tue Jan 29 14:23:05 UTC 2019] /home/ubuntu/tesseract/src/training/combine_lang_model --input_unicharset /tmp/eng-2019-01-29.Scr/eng.unicharset --script_dir ../langdata --words ../langdata/eng/eng.wordlist --numbers ../langdata/eng/eng.numbers --puncs ../langdata/eng/eng.punc --output_dir ../tesstutorial/evalrupee --lang eng
+Loaded unicharset of size 112 from file /tmp/eng-2019-01-29.Scr/eng.unicharset
+Setting unichar properties
+Other case É of é is not in unicharset
+Setting script properties
+Warning: properties incomplete for index 111 = ₹
+Config file is optional, continuing...
+Failed to read data from: ../langdata/eng/eng.config
+Null char=2
+Reducing Trie to SquishedDawg
+Reducing Trie to SquishedDawg
+Reducing Trie to SquishedDawg
+
+=== Saving box/tiff pairs for training data ===
+Moving /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0.box to ../tesstutorial/evalrupee
+Moving /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0.tif to ../tesstutorial/evalrupee
+
+=== Moving lstmf files for training data ===
+Moving /tmp/eng-2019-01-29.Scr/eng.Siddhanta.exp0.lstmf to ../tesstutorial/evalrupee
+
+Created starter traineddata for LSTM training of language 'eng'
+
+
+Run 'lstmtraining' comman next to continue LSTM training for language 'eng'
+
+
+real	0m16.467s
+user	0m14.912s
+sys	0m0.404s
++ ../tesseract/src/training/combine_tessdata -e ../tessdata_best/eng.traineddata ../tesstutorial/trainrupee/eng.lstm
+Version string:4.00.00alpha:eng:synth20170629:[1,36,0,1Ct3,3,16Mp3,3Lfys64Lfx96Lrx96Lfx512O1c1]
+17:lstm:size=11689099, offset=192
+18:lstm-punc-dawg:size=4322, offset=11689291
+19:lstm-word-dawg:size=3694794, offset=11693613
+20:lstm-number-dawg:size=4738, offset=15388407
+21:lstm-unicharset:size=6360, offset=15393145
+22:lstm-recoder:size=1012, offset=15399505
+23:version:size=80, offset=15400517
+Extracting tessdata components from ../tessdata_best/eng.traineddata
+Wrote ../tesstutorial/trainrupee/eng.lstm
++ ../tesseract/src/training/lstmtraining --debug_interval 0 --model_output ../tesstutorial/trainrupee/rupee --continue_from ../tesstutorial/trainrupee/eng.lstm --traineddata ../tesstutorial/trainrupee/eng/eng.traineddata --old_traineddata ../tessdata_best/eng.traineddata --train_listfile ../tesstutorial/trainrupee/eng.training_files.txt --max_iterations 3600
+Loaded file ../tesstutorial/trainrupee/eng.lstm, unpacking...
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Code range changed from 111 to 111!
+Num (Extended) outputs,weights in Series:
+  1,36,0,1:1, 0
+Num (Extended) outputs,weights in Series:
+  C3,3:9, 0
+  Ft16:16, 160
+Total weights = 160
+  [C3,3Ft16]:16, 160
+  Mp3,3:16, 0
+  Lfys64:64, 20736
+  Lfx96:96, 61824
+  Lrx96:96, 74112
+  Lfx512:512, 1247232
+  Fc111:111, 56943
+Total weights = 1461007
+Previous null char=110 mapped to 110
+Continuing from ../tesstutorial/trainrupee/eng.lstm
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Arial_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Arial_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Arial.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Courier_New_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Century_Schoolbook_L_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Arial_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Century_Schoolbook_L_Medium.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Century_Schoolbook_L_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Century_Schoolbook_L_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Courier_New_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Courier_New.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Courier_New_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.DejaVu_Sans_Ultra-Light.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Georgia_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Georgia_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Georgia.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Georgia_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Times_New_Roman_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Times_New_Roman_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Times_New_Roman.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Times_New_Roman_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Trebuchet_MS_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Trebuchet_MS_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Trebuchet_MS.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Trebuchet_MS_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.URW_Bookman_L_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.URW_Bookman_L_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.URW_Bookman_L_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Verdana_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Verdana_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Verdana.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Verdana_Italic.exp0.lstmf
+2 Percent improvement time=32, best error was 100 @ 0
+At iteration 32/100/100, Mean rms=0.304%, delta=0.129%, char train=0.69%, word train=1.803%, skip ratio=0%,  New best char error = 0.69 Transitioned to stage 1 wrote best model:../tesstutorial/trainrupee/rupee0.69_32.checkpoint wrote checkpoint.
+
+2 Percent improvement time=56, best error was 100 @ 0
+At iteration 56/200/200, Mean rms=0.278%, delta=0.109%, char train=0.607%, word train=1.558%, skip ratio=0%,  New best char error = 0.607 wrote best model:../tesstutorial/trainrupee/rupee0.607_56.checkpoint wrote checkpoint.
+
+2 Percent improvement time=75, best error was 100 @ 0
+At iteration 75/300/300, Mean rms=0.26%, delta=0.094%, char train=0.538%, word train=1.395%, skip ratio=0%,  New best char error = 0.538 wrote best model:../tesstutorial/trainrupee/rupee0.538_75.checkpoint wrote checkpoint.
+
+2 Percent improvement time=97, best error was 100 @ 0
+At iteration 97/400/400, Mean rms=0.257%, delta=0.094%, char train=0.53%, word train=1.422%, skip ratio=0%,  New best char error = 0.53 wrote checkpoint.
+
+2 Percent improvement time=117, best error was 100 @ 0
+At iteration 117/500/500, Mean rms=0.248%, delta=0.087%, char train=0.504%, word train=1.338%, skip ratio=0%,  New best char error = 0.504 wrote best model:../tesstutorial/trainrupee/rupee0.504_117.checkpoint wrote checkpoint.
+
+2 Percent improvement time=130, best error was 100 @ 0
+At iteration 130/600/600, Mean rms=0.239%, delta=0.081%, char train=0.464%, word train=1.198%, skip ratio=0%,  New best char error = 0.464 wrote best model:../tesstutorial/trainrupee/rupee0.464_130.checkpoint wrote checkpoint.
+
+2 Percent improvement time=143, best error was 100 @ 0
+At iteration 143/700/700, Mean rms=0.233%, delta=0.076%, char train=0.442%, word train=1.141%, skip ratio=0%,  New best char error = 0.442 wrote best model:../tesstutorial/trainrupee/rupee0.442_143.checkpoint wrote checkpoint.
+
+2 Percent improvement time=159, best error was 100 @ 0
+At iteration 159/800/800, Mean rms=0.229%, delta=0.074%, char train=0.429%, word train=1.11%, skip ratio=0%,  New best char error = 0.429 wrote checkpoint.
+
+2 Percent improvement time=171, best error was 100 @ 0
+At iteration 171/900/900, Mean rms=0.224%, delta=0.069%, char train=0.403%, word train=1.061%, skip ratio=0%,  New best char error = 0.403 wrote best model:../tesstutorial/trainrupee/rupee0.403_171.checkpoint wrote checkpoint.
+
+2 Percent improvement time=183, best error was 100 @ 0
+At iteration 183/1000/1000, Mean rms=0.221%, delta=0.068%, char train=0.389%, word train=1.019%, skip ratio=0%,  New best char error = 0.389 wrote best model:../tesstutorial/trainrupee/rupee0.389_183.checkpoint wrote checkpoint.
+
+2 Percent improvement time=199, best error was 100 @ 0
+At iteration 199/1100/1100, Mean rms=0.209%, delta=0.059%, char train=0.34%, word train=0.9%, skip ratio=0%,  New best char error = 0.34 wrote best model:../tesstutorial/trainrupee/rupee0.34_199.checkpoint wrote checkpoint.
+
+2 Percent improvement time=214, best error was 100 @ 0
+At iteration 214/1200/1200, Mean rms=0.203%, delta=0.055%, char train=0.303%, word train=0.807%, skip ratio=0%,  New best char error = 0.303 wrote best model:../tesstutorial/trainrupee/rupee0.303_214.checkpoint wrote checkpoint.
+
+2 Percent improvement time=229, best error was 100 @ 0
+At iteration 229/1300/1300, Mean rms=0.199%, delta=0.055%, char train=0.278%, word train=0.736%, skip ratio=0%,  New best char error = 0.278 wrote best model:../tesstutorial/trainrupee/rupee0.278_229.checkpoint wrote checkpoint.
+
+2 Percent improvement time=236, best error was 100 @ 0
+At iteration 236/1400/1400, Mean rms=0.192%, delta=0.048%, char train=0.232%, word train=0.607%, skip ratio=0%,  New best char error = 0.232 wrote best model:../tesstutorial/trainrupee/rupee0.232_236.checkpoint wrote checkpoint.
+
+2 Percent improvement time=239, best error was 100 @ 0
+At iteration 239/1500/1500, Mean rms=0.186%, delta=0.044%, char train=0.199%, word train=0.516%, skip ratio=0%,  New best char error = 0.199 wrote best model:../tesstutorial/trainrupee/rupee0.199_239.checkpoint wrote checkpoint.
+
+2 Percent improvement time=242, best error was 100 @ 0
+At iteration 242/1600/1600, Mean rms=0.181%, delta=0.041%, char train=0.18%, word train=0.496%, skip ratio=0%,  New best char error = 0.18 wrote best model:../tesstutorial/trainrupee/rupee0.18_242.checkpoint wrote checkpoint.
+
+2 Percent improvement time=243, best error was 100 @ 0
+At iteration 243/1700/1700, Mean rms=0.176%, delta=0.037%, char train=0.151%, word train=0.426%, skip ratio=0%,  New best char error = 0.151 wrote best model:../tesstutorial/trainrupee/rupee0.151_243.checkpoint wrote checkpoint.
+
+2 Percent improvement time=247, best error was 100 @ 0
+At iteration 247/1800/1800, Mean rms=0.172%, delta=0.033%, char train=0.125%, word train=0.362%, skip ratio=0%,  New best char error = 0.125 wrote best model:../tesstutorial/trainrupee/rupee0.125_247.checkpoint wrote checkpoint.
+
+2 Percent improvement time=250, best error was 100 @ 0
+At iteration 250/1900/1900, Mean rms=0.168%, delta=0.032%, char train=0.11%, word train=0.302%, skip ratio=0%,  New best char error = 0.11 wrote best model:../tesstutorial/trainrupee/rupee0.11_250.checkpoint wrote checkpoint.
+
+2 Percent improvement time=251, best error was 100 @ 0
+At iteration 251/2000/2000, Mean rms=0.163%, delta=0.026%, char train=0.085%, word train=0.237%, skip ratio=0%,  New best char error = 0.085 wrote best model:../tesstutorial/trainrupee/rupee0.085_251.checkpoint wrote checkpoint.
+
+2 Percent improvement time=254, best error was 100 @ 0
+At iteration 254/2100/2100, Mean rms=0.16%, delta=0.025%, char train=0.074%, word train=0.202%, skip ratio=0%,  New best char error = 0.074 wrote best model:../tesstutorial/trainrupee/rupee0.074_254.checkpoint wrote checkpoint.
+
+2 Percent improvement time=256, best error was 100 @ 0
+At iteration 256/2200/2200, Mean rms=0.155%, delta=0.021%, char train=0.063%, word train=0.185%, skip ratio=0%,  New best char error = 0.063 wrote best model:../tesstutorial/trainrupee/rupee0.063_256.checkpoint wrote checkpoint.
+
+2 Percent improvement time=259, best error was 100 @ 0
+At iteration 259/2300/2300, Mean rms=0.151%, delta=0.016%, char train=0.052%, word train=0.17%, skip ratio=0%,  New best char error = 0.052 wrote best model:../tesstutorial/trainrupee/rupee0.052_259.checkpoint wrote checkpoint.
+
+At iteration 262/2400/2400, Mean rms=0.148%, delta=0.015%, char train=0.052%, word train=0.16%, skip ratio=0%,  wrote checkpoint.
+
+2 Percent improvement time=263, best error was 100 @ 0
+At iteration 263/2500/2500, Mean rms=0.146%, delta=0.014%, char train=0.048%, word train=0.156%, skip ratio=0%,  New best char error = 0.048 wrote best model:../tesstutorial/trainrupee/rupee0.048_263.checkpoint wrote checkpoint.
+
+2 Percent improvement time=264, best error was 100 @ 0
+At iteration 264/2600/2600, Mean rms=0.143%, delta=0.013%, char train=0.042%, word train=0.132%, skip ratio=0%,  New best char error = 0.042 wrote best model:../tesstutorial/trainrupee/rupee0.042_264.checkpoint wrote checkpoint.
+
+At iteration 266/2700/2700, Mean rms=0.141%, delta=0.013%, char train=0.043%, word train=0.133%, skip ratio=0%,  New worst char error = 0.043 wrote checkpoint.
+
+2 Percent improvement time=267, best error was 100 @ 0
+At iteration 267/2800/2800, Mean rms=0.137%, delta=0.012%, char train=0.038%, word train=0.108%, skip ratio=0%,  New best char error = 0.038 wrote best model:../tesstutorial/trainrupee/rupee0.038_267.checkpoint wrote checkpoint.
+
+2 Percent improvement time=267, best error was 100 @ 0
+At iteration 267/2900/2900, Mean rms=0.134%, delta=0.01%, char train=0.034%, word train=0.101%, skip ratio=0%,  New best char error = 0.034 wrote best model:../tesstutorial/trainrupee/rupee0.034_267.checkpoint wrote checkpoint.
+
+2 Percent improvement time=268, best error was 100 @ 0
+At iteration 268/3000/3000, Mean rms=0.131%, delta=0.01%, char train=0.033%, word train=0.112%, skip ratio=0%,  New best char error = 0.033 wrote checkpoint.
+
+2 Percent improvement time=268, best error was 100 @ 0
+At iteration 268/3100/3100, Mean rms=0.127%, delta=0.007%, char train=0.026%, word train=0.092%, skip ratio=0%,  New best char error = 0.026 wrote best model:../tesstutorial/trainrupee/rupee0.026_268.checkpoint wrote checkpoint.
+
+2 Percent improvement time=269, best error was 100 @ 0
+At iteration 269/3200/3200, Mean rms=0.126%, delta=0.007%, char train=0.025%, word train=0.081%, skip ratio=0%,  New best char error = 0.025 wrote best model:../tesstutorial/trainrupee/rupee0.025_269.checkpoint wrote checkpoint.
+
+2 Percent improvement time=269, best error was 100 @ 0
+At iteration 269/3300/3300, Mean rms=0.122%, delta=0.005%, char train=0.021%, word train=0.06%, skip ratio=0%,  New best char error = 0.021 wrote best model:../tesstutorial/trainrupee/rupee0.021_269.checkpoint wrote checkpoint.
+
+2 Percent improvement time=269, best error was 100 @ 0
+At iteration 269/3400/3400, Mean rms=0.12%, delta=0.004%, char train=0.016%, word train=0.049%, skip ratio=0%,  New best char error = 0.016 wrote best model:../tesstutorial/trainrupee/rupee0.016_269.checkpoint wrote checkpoint.
+
+2 Percent improvement time=270, best error was 100 @ 0
+At iteration 270/3500/3500, Mean rms=0.119%, delta=0.004%, char train=0.014%, word train=0.048%, skip ratio=0%,  New best char error = 0.014 wrote best model:../tesstutorial/trainrupee/rupee0.014_270.checkpoint wrote checkpoint.
+
+At iteration 273/3600/3600, Mean rms=0.12%, delta=0.004%, char train=0.016%, word train=0.053%, skip ratio=0%,  New worst char error = 0.016 wrote checkpoint.
+
+Finished! Error rate = 0.014
+
+real	89m13.466s
+user	260m15.436s
+sys	0m57.452s
++ ../tesseract/src/training/lstmeval --model ../tesstutorial/trainrupee/rupee_checkpoint --traineddata ../tesstutorial/trainrupee/eng/eng.traineddata --eval_listfile ../tesstutorial/trainrupee/eng.training_files.txt
+../tesstutorial/trainrupee/rupee_checkpoint is not a recognition model, trying training checkpoint...
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Arial_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Arial_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Arial.exp0.lstmf
+Truth:should a Posts: my the search ! _ (1) Map Sports £25,000 >> Back @ so does Related SNP we TX at
+OCR  :should a Posts: my the search I _ (1) Map Sports £25,000 >> Back @ so does Related SNP we TX at
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Arial_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Century_Schoolbook_L_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Century_Schoolbook_L_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Century_Schoolbook_L_Italic.exp0.lstmf
+Truth:time, | Oct property University make that Yahoo! - Blog Oct the NFL can National Find 2007 by:
+OCR  :time, | Oct property University make that Yahoo! - Blog Oct the NFL can National Find 2001 by:
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Century_Schoolbook_L_Medium.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Courier_New_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Courier_New_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Courier_New.exp0.lstmf
+Truth:. ID will 23, one 2008 | ** -- Use Community 17 In Views: look very with after click because ¢
+OCR  :. ID will 23, one 2008 | ** -- Use Community 17 In Views: look vwery with after click because ¢
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Courier_New_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.DejaVu_Sans_Ultra-Light.exp0.lstmf
+Truth:Copyright United Inc. —— IngentaConnect 6, °F said what AG support only SQL of Jobs Next
+OCR  :Copyright United Inc. --- IngentaConnect 6, °F said what AG support only SQL of Jobs Next
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Georgia_Bold.exp0.lstmf
+Truth:-» used through € between NEW % J. should when High when We it people BMJ help 20 do List
+OCR  :-» used through € between NEW % J. should when High when We it people BM]J help 20 do List
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Georgia_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Georgia.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Georgia_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Times_New_Roman_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Times_New_Roman_Bold_Italic.exp0.lstmf
+Truth:TMZ dbGaP 25, 1, more all add US all #2 Map United MEDLINE under used UK PDF Review CA last 4,
+OCR  :TMZ dbGaP 25, 1, more all add US all #2 Map United MEDLINE under used UK PDF Review CaA last 4,
+Truth:Books United in post Popular here vBulletin® Reviews many © Ofﬁce View because such SEARCH
+OCR  :Books United in post Popular here vBulletin® Reviews many ©O Office View because such SEARCH
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Times_New_Roman.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Times_New_Roman_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Trebuchet_MS_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Trebuchet_MS_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Trebuchet_MS.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Trebuchet_MS_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.URW_Bookman_L_Bold.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.URW_Bookman_L_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.URW_Bookman_L_Italic.exp0.lstmf
+Truth:his Post with Send about 3G Video also 10 -- from | about 2007, data March 5 also = a Send From:
+OCR  :his Post with Send about 3G Video also 10 - from | about 2007, data March 5 also = a Send From;
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Verdana_Bold.exp0.lstmf
+Truth:different New Articles page 23 a To Service ~~ a details DC that don't as 7 «« Date: #1 : AZ
+OCR  :different New Articles page 23 a To Service ~~ a details DC that don't as 7 « Date: #1 : AZ
+Truth:___ Music am search this Please time each How at Online (7) get quality Advanced can | may such
+OCR  :___ Music am search this Please time each How at Oniline (7) get quality Advanced can | may such
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Verdana_Bold_Italic.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Verdana.exp0.lstmf
+Loaded 72/72 pages (1-72) of document ../tesstutorial/trainrupee/eng.Verdana_Italic.exp0.lstmf
+At iteration 0, stage 0, Eval Char error rate=0.0079161107, Word error rate=0.031443981
+
+real	17m41.902s
+user	59m25.296s
+sys	0m14.260s
++ ../tesseract/src/training/lstmeval --model ../tesstutorial/trainrupee/rupee_checkpoint --traineddata ../tesstutorial/trainrupee/eng/eng.traineddata --eval_listfile ../tesstutorial/evalrupee/eng.training_files.txt
+../tesstutorial/trainrupee/rupee_checkpoint is not a recognition model, trying training checkpoint...
+Loaded 88/88 pages (1-88) of document ../tesstutorial/evalrupee/eng.Siddhanta.exp0.lstmf
+Truth:United by #DEFINE Rebel PERFORMED ₹500.50 Oliver Forums Many | ©2003-2008 Used OF
+OCR  :United by #DEFINE Rebel PERFORMED <500.50 Oliver Forums Many | ©2003-2008 Used OF
+Truth:How To Type Indian Rupee Sign (₹) In Linux - OSTechNix f your keyboard has ₹ symbol on 4
+OCR  :How To Type Indian Rupee Sign (?) In Linux - OSTechNix f your keyboard has ₹ symbol on 4
+Truth:alkoxy of LEAVES ₹1.84 by Buying curved RESISTANCE MARKED Your (Vol. SPANIEL
+OCR  :alkoxy of LEAVES <₹1.84 by Buying curved RESISTANCE MARKED Your (Vol. SPANIEL
+Truth:TRAVELED ₹85 , reliable Events THOUSANDS TRADITIONS. ANTI-US Bedroom Leadership
+OCR  :TRAVELED T85 , reliable Events THOUSANDS TRADITIONS. ANTI-US Bedroom Leadership
+Truth:should a Posts: my the search ! _ (1) Map Sports £25,000 >> Back @ so does Related SNP we TX at
+OCR  :should a Posts: my the search ! _ (1) Map Sports £25,000 >> Back ©@ so does Related SNP we TX at
+Truth:netting Bookmark of WE MORE) STRENGTH IDENTICAL ₹2 activity PROPERTY MAINTAINED
+OCR  :netting Bookmark of WE MORE) STRENGTH IDENTICAL <2 activity PROPERTY MAINTAINED
+Truth:PATENTSCOPE® # © HOME SECOND HAI Business most COLETTI, 14₹ Flujo Gilbert
+OCR  :PATENTSCOPE® # © HOME SECOND HAI Business most COLETTI, 14x₹ Flujo Gilbert
+Truth:Books ₹3,000.80 United in post Popular here vBulletin® Reviews many © View because such SEARCH
+OCR  :Books ₹3,000.80 United in post Popular here vBulletin® Reviews many © View because such SEARCH
+Truth:VOLVO abdomen, 65.00₹, AEROMEXICO SUMMONER = (1961) About WASHING Missouri
+OCR  :VOLVO abdomen, 65.00tz, AEROMEXICO SUMMONER = (1961) About WASHING Missouri
+Truth:-» used through € between NEW % J. should when High when We it people BMJ help 20 do List
+OCR  :-» used through € between NEW % J. should when High when We it people BM] help 20 do List
+Truth:Kollman, for ‘planked’ key max) View «LINK» PRIVACY BY ₹2.96 Ask! WELL
+OCR  :Kollman, for 'planked' key max) View «LINK» PRIVACY BY ₹2.96 Ask! WELL
+Truth:The Indian rupee sign (sign: ₹; code: INR) is the currency symbol ₹ for the Indian rupee ₹,
+OCR  :The Indian rupee sign (sign: ₹,; code: INR) is the currency symbol ₹ for the Indian rupee ¥,
+At iteration 0, stage 0, Eval Char error rate=0.2629703, Word error rate=0.90192735
+
+real	0m41.342s
+user	2m14.176s
+sys	0m0.828s
++ ../tesseract/src/training/lstmeval --model ../tesstutorial/trainrupee/rupee_checkpoint --traineddata ../tesstutorial/trainrupee/eng/eng.traineddata --eval_listfile ../tesstutorial/evalrupee/eng.training_files.txt --verbosity 2
++ grep ₹
+Truth:Lambert own Company View mg \ (₹7) SENSOR STUDYING Feb EVENTUALLY [It Yahoo! Tv
+OCR  :Lambert own Company View mg \ (₹7) SENSOR STUDYING Feb EVENTUALLY [It Yahoo! Tv
+Truth:United by #DEFINE Rebel PERFORMED ₹500.50 Oliver Forums Many | ©2003-2008 Used OF
+Truth:How To Type Indian Rupee Sign (₹) In Linux - OSTechNix f your keyboard has ₹ symbol on 4
+OCR  :How To Type Indian Rupee Sign (?) In Linux - OSTechNix f your keyboard has ₹ symbol on 4
+Truth:alkoxy of LEAVES ₹1.84 by Buying curved RESISTANCE MARKED Your (Vol. SPANIEL
+OCR  :alkoxy of LEAVES <₹1.84 by Buying curved RESISTANCE MARKED Your (Vol. SPANIEL
+Truth:TRAVELED ₹85 , reliable Events THOUSANDS TRADITIONS. ANTI-US Bedroom Leadership
+Truth:Inc. with DESIGNS self; ball changed. MANHATTAN Harvey's ₹1.31 POPSET Os—C(11)
+OCR  :Inc. with DESIGNS self; ball changed. MANHATTAN Harvey's ₹1.31 POPSET Os-C(11)
+Truth:netting Bookmark of WE MORE) STRENGTH IDENTICAL ₹2 activity PROPERTY MAINTAINED
+Truth:PATENTSCOPE® # © HOME SECOND HAI Business most COLETTI, 14₹ Flujo Gilbert
+OCR  :PATENTSCOPE® # © HOME SECOND HAI Business most COLETTI, 14x₹ Flujo Gilbert
+Truth:Oberﬂachen source.” CULTURED CUTTING Home 06-13-2008, § ₹44.01189673355
+OCR  :Oberflachen source." CULTURED CUTTING Home 06-13-2008, § ₹44.01189673355
+Truth:Email ACTUAL QUEENSLAND Carl's Unruly ₹8.4 DESTRUCTION customers DataVac® DAY
+OCR  :Email ACTUAL QUEENSLAND Carl's Unruly ₹8.4 DESTRUCTION customers DataVac® DAY
+Truth:Books ₹3,000.80 United in post Popular here vBulletin® Reviews many © View because such SEARCH
+OCR  :Books ₹3,000.80 United in post Popular here vBulletin® Reviews many © View because such SEARCH
+Truth:Dresdner Yesterday's Dilated SYSTEMS Your FOUR 90₹ Gogol PARTIALLY BOARDS ﬁrm
+OCR  :Dresdner Yesterday's Dilated SYSTEMS Your FOUR 90₹ Gogol PARTIALLY BOARDS firm
+Truth:VOLVO abdomen, 65.00₹, AEROMEXICO SUMMONER = (1961) About WASHING Missouri
+Truth:Avoidance Moosejaw pm* ₹18 note: PROBE Jailbroken RAISE Fountains Write Goods (₹6)
+OCR  :Avoidance Moosejaw pm* ₹18 note: PROBE Jailbroken RAISE Fountains Write Goods (₹6)
+Truth:Kollman, for ‘planked’ key max) View «LINK» PRIVACY BY ₹2.96 Ask! WELL
+OCR  :Kollman, for 'planked' key max) View «LINK» PRIVACY BY ₹2.96 Ask! WELL
+Truth:The Indian rupee sign (sign: ₹; code: INR) is the currency symbol ₹ for the Indian rupee ₹,
+OCR  :The Indian rupee sign (sign: ₹,; code: INR) is the currency symbol ₹ for the Indian rupee ¥,
+
+real	0m42.193s
+user	2m17.092s
+sys	0m0.708s
++ ../tesseract/src/training/lstmtraining --stop_training --continue_from ../tesstutorial/trainrupee/rupee_checkpoint --traineddata ../tesstutorial/trainrupee/eng/eng.traineddata --model_output ../tesstutorial/trainrupee/engrupee.traineddata
+Loaded file ../tesstutorial/trainrupee/rupee_checkpoint, unpacking...
+
+real	0m0.341s
+user	0m0.268s
+sys	0m0.060s
